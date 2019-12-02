@@ -144,7 +144,7 @@ class AlbumInfoFragment : Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
-        compositeDisposable.clear()
+        compositeDisposable.dispose()
     }
 
     companion object {

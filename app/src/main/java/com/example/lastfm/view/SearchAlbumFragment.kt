@@ -134,6 +134,11 @@ class SearchAlbumFragment : Fragment(), SearchResultsAdapter.ClickListener {
         }
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        compositeDisposable.dispose()
+    }
+
     companion object {
         const val TAG = "SearchAlbumFragment"
         fun newInstance() = SearchAlbumFragment()
