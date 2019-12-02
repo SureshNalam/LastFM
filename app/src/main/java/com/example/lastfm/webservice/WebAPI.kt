@@ -36,7 +36,7 @@ interface WebAPI {
         const val PARAM_FORMAT = "format"
         const val PARAM_VALUE_ALBUM_SEARCH = "album.search"
         const val PARAM_VALUE_GET_INFO = "album.getinfo"
-        const val PARAM_VALUE_API_KEY = ""
+        const val PARAM_VALUE_API_KEY = "8bf670e7b735f16a2068bee3d0ea3c33"
         const val PARAM_VALUE_JSON = "json"
 
     }
